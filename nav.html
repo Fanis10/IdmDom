@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Навигация</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<section class="navigation">
+			<div class="container">
+				<div class="navigation__inner">
+					<ul class="navigation__list">
+						<li><a href="index.html">Главная</a></li>
+						<li>
+							<button class="navigation__btn btn btn-yellow" data-modal="contactModal">
+								<span>Консультация</span>
+							</button>
+						</li>
+						<li>
+							<button class="navigation__btn btn btn-yellow" data-modal="contactModal2">
+								<span>Консультация 2</span>
+							</button>
+						</li>
+						<li>
+							<button class="navigation__btn btn btn-yellow" data-modal="contactModal3">
+								<span>Спасибо!</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="modal modal-form" id="contactModal">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close btn btn-animation btn-pink" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.76923 10L0 9.23077L4.23077 5L0 0.76923L0.76923 0L5 4.23077L9.23077 0L10 0.76923L5.76923 5L10 9.23077L9.23077 10L5 5.76923L0.76923 10Z" fill="white"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<div class="modal-form__desc">
+					<a class="modal-form__logo" href="index.html">
+						<img src="img/logo.svg" alt="">
+						<img src="img/logo--1.svg" alt="">
+					</a>
+					<div class="modal-form__title text32">Консультация</div>
+					<form class="form">
+						<div class="form-group">
+							<input type="text" placeholder="">
+							<span class="input-text">Как к Вам обращаться <span>*</span></span>
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="">
+							<span class="input-text">Ваш телефон <span>*</span></span>
+						</div>
+						<div class="form-group">
+							<textarea placeholder="Что Вас интересует? / Опишите задачу"></textarea>
+						</div>
+						<div class="form-check">
+							<input type="checkbox">
+							<label>Согласен на обработку <a href="">персональных данных</a></label>
+						</div>
+						<button class="form-btn btn btn-yellow">
+							<span>Отправить</span>
+						</button>
+					</form>
+				</div>
+				<div class="modal-form__img">
+					<img src="img/modal-img.webp" alt="">
+					<img src="img/modal-img--1.webp" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-form" id="contactModal2">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close btn btn-animation btn-pink" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.76923 10L0 9.23077L4.23077 5L0 0.76923L0.76923 0L5 4.23077L9.23077 0L10 0.76923L5.76923 5L10 9.23077L9.23077 10L5 5.76923L0.76923 10Z" fill="white"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<div class="modal-form__desc">
+					<a class="modal-form__logo" href="index.html">
+						<img src="img/logo.svg" alt="">
+						<img src="img/logo--1.svg" alt="">
+					</a>
+					<div class="modal-form__title text32">Консультация</div>
+					<form class="form">
+						<div class="form-group">
+							<input type="text" placeholder="">
+							<span class="input-text">Как к Вам обращаться <span>*</span></span>
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="">
+							<span class="input-text">Ваш телефон <span>*</span></span>
+						</div>
+						<div class="form-group">
+							<textarea placeholder="Что Вас интересует? / Опишите задачу"></textarea>
+						</div>
+						<div class="form-check">
+							<input type="checkbox">
+							<label>Согласен на обработку <a href="">персональных данных</a></label>
+						</div>
+						<button class="form-btn btn btn-yellow">
+							<span>Отправить</span>
+						</button>
+					</form>
+				</div>
+				<div class="modal-form__img">
+					<img src="img/modal-img2.webp" alt="">
+					<img src="img/modal-img2--1.webp" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-thanks" id="contactModal3">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close btn btn-animation btn-pink" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.76923 10L0 9.23077L4.23077 5L0 0.76923L0.76923 0L5 4.23077L9.23077 0L10 0.76923L5.76923 5L10 9.23077L9.23077 10L5 5.76923L0.76923 10Z" fill="white"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<a class="modal-thanks__logo" href="index.html">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="modal-thanks__title">Спасибо!</div>
+				<div class="modal-thanks__subtitle">Заявка успешно отправлена.</div>
+				<div class="modal-thanks__text">Наши менеджеры свяжутся с Вами <br> в самое ближайшее время.</div>
+				<button class="modal-thanks__btn btn btn-yellow _close-modal">
+					<span>Закрыть</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="cookie">
+		<button class="cookie__close">
+			<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0.76923 10L0 9.23077L4.23077 5L0 0.76923L0.76923 0L5 4.23077L9.23077 0L10 0.76923L5.76923 5L10 9.23077L9.23077 10L5 5.76923L0.76923 10Z" fill="#00A837"/>
+			</svg>
+		</button>
+		<div class="cookie__text">Мы используем файлы cookie, чтобы обеспечивать правильную работу веб-сайта. Оставаясь с нами Вы соглашаетесь с использованием cookies</div>
+		<button class="cookie__btn btn btn-yellow">
+			<span>Принять</span>
+		</button>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
+
+<style>
+	.navigation {
+		padding: 50px 0;
+	}
+	.navigation__list {
+		display: grid;
+		grid-template-columns: 100%;
+		gap: 24px;
+	}
+	.navigation__list li a {
+		font-size: 24px;
+		line-height: 150%;
+	}
+	.navigation__list li a:hover {
+		color: #FECC00;
+	}
+	.navigation__btn {
+		height: 60px;
+		padding: 5px 30px;
+		font-size: 18px;
+		line-height: 130%;
+		font-weight: 600;
+	}
+</style>
